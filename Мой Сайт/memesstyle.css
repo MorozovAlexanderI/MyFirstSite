@@ -1,0 +1,9 @@
+.card center {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(coming.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+html {
+    background-image: url(earth.jpg);
+
+background-repeat: no-repeat;
+
+background-position: center center;
+
+background-attachment: fixed;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  header {
+    position: sticky;
+    background: #333;
+    padding: 1rem 2rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .menu {
+    list-style-type: none;
+  }
+  
+  .menu li {
+    display: inline;
+    margin-left: 1rem;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .welcome {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .welcome h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tutorials, .models {
+    margin-bottom: 2rem;
+  }
+  
+  .tutorials h2, .models h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tutorials ul, .models ul {
+    list-style-type: none;
+  }
+  
+  .tutorials li, .models li {
+    margin-bottom: .5rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+  
